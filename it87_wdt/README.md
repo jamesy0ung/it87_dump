@@ -27,7 +27,7 @@ This tool allows configuration and control of the watchdog timer on IT87 Super I
 ## Usage
 
 ```bash
-sudo ./it87_watchdog [options]
+sudo ./it87_wdt [options]
 ```
 
 ### Command Line Options
@@ -47,31 +47,31 @@ sudo ./it87_watchdog [options]
 *   Set timeout to 60 seconds:
 
     ```bash
-    sudo ./it87_watchdog -t 60
+    sudo ./it87_wdt -t 60
     ```
 *   Enable test mode with a 120-second timeout:
 
     ```bash
-    sudo ./it87_watchdog -t 120 -T
+    sudo ./it87_wdt -t 120 -T
     ```
 *   Enable keep-alive mode with a 30-second timeout:
 
     ```bash
-    sudo ./it87_watchdog -t 30 -k
+    sudo ./it87_wdt -t 30 -k
     ```
 *   Stop the watchdog:
 
     ```bash
-    sudo ./it87_watchdog -s
+    sudo ./it87_wdt -s
     ```
 * Show chip information:
 
     ```bash
-    sudo ./it87_watchdog -i
+    sudo ./it87_wdt -i
     ```
 * Enable power good output mode:
 
     ```bash
-    sudo ./it87_watchdog -p
+    sudo ./it87_wdt -p
     ```
 ```
