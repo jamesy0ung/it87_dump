@@ -8,7 +8,7 @@ This program dumps the registers of IT87 Super I/O chips found on many motherboa
 
 *   Probes for IT87 Super I/O chips at ports 0x2E and 0x4E.
 *   Identifies the chip ID.
-*   Dumps registers for all active logical devices (LDNs).
+*   Dumps registers for all active logical devices (0x30 == 0x01).
 *   Attempts multiple known entry sequences to enter configuration mode.
 *   Handles ITE super I/O chips (and possibly others).
 
