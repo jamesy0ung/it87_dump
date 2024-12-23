@@ -1,4 +1,3 @@
-```markdown
 # IT87 Super I/O Watchdog Configuration Tool
 
 This tool allows configuration and control of the watchdog timer on IT87 Super I/O chips, commonly found on many motherboards. It supports setting the timeout, enabling test mode (no reboot), enabling power good output, and a keep-alive mode to continuously reset the watchdog timer.
