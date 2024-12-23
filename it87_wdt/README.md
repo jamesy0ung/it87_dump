@@ -74,4 +74,3 @@ sudo ./it87_wdt [options]
     ```bash
     sudo ./it87_wdt -p
     ```
-```
