@@ -15,7 +15,7 @@ This program dumps the registers of IT87 Super I/O chips found on many motherboa
 ## Building
 
 1. Clone the repository
-3. Run `make` from the repository to compile the program.
+2. Run `make` in the cloned project directory (it87_tools/it87_dump).
 
 ## Usage
 
